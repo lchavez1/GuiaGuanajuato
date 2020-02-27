@@ -4,7 +4,8 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="GuiaGuanajuato.Views.Info">
+             x:Class="GuiaGuanajuato.Views.Info"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
     <ContentPage.Content>
         <StackLayout>
             <Grid>
@@ -16,9 +17,25 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
+                <Image x:Name="imgImage" Source="https://media-cdn.tripadvisor.com/media/photo-s/0f/88/70/2a/interior.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></Image>
+                <Label x:Name="lblDescription" Text="El mercado hidalgo es uno de los edificios más emblematicos de Guanajuato Capital" Grid.Row="1" Grid.Column="0"></Label>
+                <maps:Map Grid.Column="1" Grid.Row="1">
+                    <x:Arguments>
+                        <maps:MapSpan>
+                            <x:Arguments>
+                                <maps:Position>
+                                    <x:Arguments>
+                                        <x:Double>21.0027718</x:Double>
+                                        <x:Double>-101.2712659</x:Double>
+                                    </x:Arguments>
+                                </maps:Position>
+                                <x:Double>0.01</x:Double>
+                                <x:Double>0.01</x:Double>
+                            </x:Arguments>
+                        </maps:MapSpan>
+                    </x:Arguments>
+                </maps:Map>
             </Grid>
-            <Image x:Name="imgImage" Source="https://media-cdn.tripadvisor.com/media/photo-s/0f/88/70/2a/interior.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"></Image>
-            <Label x:Name="lblDescription" Text="El mercado hidalgo es uno de los edificios más emblematicos de Guanajuato Capital" Grid.Row="1" Grid.Column="0"></Label>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
