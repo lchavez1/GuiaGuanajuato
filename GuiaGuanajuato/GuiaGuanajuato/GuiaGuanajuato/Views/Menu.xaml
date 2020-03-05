@@ -20,6 +20,17 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <Image x:Name="imgMarket" Source="https://media-cdn.tripadvisor.com/media/photo-s/0f/88/70/2a/interior.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"></Image>
+                <Image x:Name="imgJuarez" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Teatro_Juarez.jpg/1200px-Teatro_Juarez.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="1"></Image>
+                <Image x:Name="imgMomias" Source="https://www.ancient-origins.es/sites/default/files/field/image/Portada-momias-Guanajuato.jpg" Aspect="AspectFill" Grid.Row="0" Grid.Column="2"></Image>
+                <Image x:Name="imgCera" Source="https://www.travelbymexico.com/guanatr/guan3611OCH.jpg" Aspect="AspectFill" Grid.Row="1" Grid.Column="0"></Image>
+                <Image x:Name="imgPrincipal" Source="https://media-cdn.tripadvisor.com/media/photo-s/15/bc/d3/b7/out-front.jpg" Aspect="AspectFill" Grid.Row="1" Grid.Column="1"></Image>
+                <Image x:Name="imgDiego" Source="https://boletines.guanajuato.gob.mx/wp-content/uploads/2016/03/COLECCION-MARTE-R-GOMEZ.jpg" Aspect="AspectFill" Grid.Row="1" Grid.Column="2"></Image>
+                <Image x:Name="imgPipila" Source="https://upload.wikimedia.org/wikipedia/commons/3/30/El_P%C3%ADpila.jpg" Aspect="AspectFill" Grid.Row="2" Grid.Column="0"></Image>
+                <Image x:Name="imgUG" Source="https://periodicocorreo.com.mx/wp-content/uploads/2017/01/UG.jpg" Aspect="AspectFill" Grid.Row="2" Grid.Column="1"></Image>
+                <Image x:Name="imgCompania" Source="https://periodicocorreo.com.mx/wp-content/uploads/2015/11/ocio-color-compa-3.jpg" Aspect="AspectFill" Grid.Row="2" Grid.Column="2"></Image>
+                <Image x:Name="imgCervantes" Source="https://www.mexicoescultura.com/galerias/espacios/principal/05_teatrocervantes.jpg" Aspect="AspectFill" Grid.Row="3" Grid.Column="0"></Image>
+                <Image x:Name="imgAlhondiga" Source="https://upload.wikimedia.org/wikipedia/commons/c/c2/Alhondiga-Granaditas-Mexico.JPG" Aspect="AspectFill" Grid.Row="3" Grid.Column="1"></Image>
+                <Image x:Name="imgPPaz" Source="https://www.travelbymexico.com/guanatr/guan5433NXX.jpg" Aspect="AspectFill" Grid.Row="3" Grid.Column="2"></Image>
             </Grid>
         </StackLayout>
     </ContentPage.Content>

@@ -12,9 +12,11 @@ namespace GuiaGuanajuato.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Info : ContentPage
     {
-        public Info()
+        public Info(Data datos)
         {
             InitializeComponent();
+            imgImage.Source = datos.image;
+            lblDescription.Text = datos.text;
         }
     }
 }
