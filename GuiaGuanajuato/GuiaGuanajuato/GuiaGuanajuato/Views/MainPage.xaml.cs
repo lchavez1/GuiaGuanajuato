@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GuiaGuanajuato.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -21,7 +22,7 @@ namespace GuiaGuanajuato
 
         async void BtnRegister_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new Menu());
+            await Navigation.PushAsync(new MenuAPI());
         }
     }
 }
