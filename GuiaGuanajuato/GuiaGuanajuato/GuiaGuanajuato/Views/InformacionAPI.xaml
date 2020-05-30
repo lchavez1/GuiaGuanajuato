@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             mc:Ignorable="d"
+             x:Class="GuiaGuanajuato.Views.InformacionAPI">
+    <ContentPage.Content>
+        <StackLayout>
+            <ActivityIndicator IsRunning="True" IsVisible="True" x:Name="aiCargar"></ActivityIndicator>
+            <Label x:Name="lbl1" Text="{Binding Nombre}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+            <Label x:Name="lbl2" Text="{Binding Descripcion}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+            <StackLayout Orientation="Horizontal" x:Name="layoutgallery">
+                <Grid x:Name="gdFotografias" HeightRequest="100"></Grid>
+            </StackLayout>
+            <maps:Map Grid.Column="1" Grid.Row="1" x:Name="map">
+                <x:Arguments>
+                    <maps:MapSpan>
+                        <x:Arguments>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>21.0027718</x:Double>
+                                    <x:Double>-101.2712659</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <x:Double>0.01</x:Double>
+                            <x:Double>0.01</x:Double>
+                        </x:Arguments>
+                    </maps:MapSpan>
+                </x:Arguments>
+            </maps:Map>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

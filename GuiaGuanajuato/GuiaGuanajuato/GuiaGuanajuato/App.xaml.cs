@@ -1,4 +1,6 @@
-﻿using System;
+﻿using GuiaGuanajuato.Views;
+using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -13,9 +15,13 @@ namespace GuiaGuanajuato
             MainPage = new NavigationPage(new MainPage());
         }
 
-        protected override void OnStart()
+        protected async override void OnStart()
         {
-            // Handle when your app starts
+            var registrado = await SecureStorage.GetAsync("registrado");
+            if (registrado == "si")
+            {
+                MainPage = new NavigationPage(new MenuAPI());
+            }
         }
 
         protected override void OnSleep()

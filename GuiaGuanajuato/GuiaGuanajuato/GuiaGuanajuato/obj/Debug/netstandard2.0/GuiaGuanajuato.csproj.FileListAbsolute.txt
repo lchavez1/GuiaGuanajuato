@@ -14,3 +14,4 @@ C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\Gu
 C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Debug\netstandard2.0\Views\Menu.xaml.g.cs
 C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Debug\netstandard2.0\Views\MenuAPI.xaml.g.cs
 C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Debug\netstandard2.0\Views\InformacionAPI.xaml.g.cs

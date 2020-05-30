@@ -7,9 +7,11 @@
              x:Class="GuiaGuanajuato.Views.MenuAPI">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Cargando datos..."
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
+            <ActivityIndicator Color="LightBlue" IsRunning="True" IsVisible="True" ></ActivityIndicator>
+            <Grid x:Name="gdLugares"></Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
