@@ -11,10 +11,10 @@
             <ActivityIndicator IsRunning="True" IsVisible="True" x:Name="aiCargar"></ActivityIndicator>
             <Label x:Name="lbl1" Text="{Binding Nombre}"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
             <Label x:Name="lbl2" Text="{Binding Descripcion}"
                 VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" />
+                HorizontalOptions="CenterAndExpand" HorizontalTextAlignment="Center" FontAttributes="Italic"/>
             <StackLayout Orientation="Horizontal" x:Name="layoutgallery">
                 <Grid x:Name="gdFotografias" HeightRequest="100"></Grid>
             </StackLayout>
