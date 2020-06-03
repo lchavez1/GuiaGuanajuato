@@ -1,0 +1,16 @@
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\bin\Release\netstandard2.0\GuiaGuanajuato.deps.json
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\bin\Release\netstandard2.0\GuiaGuanajuato.dll
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\bin\Release\netstandard2.0\ref\GuiaGuanajuato.dll
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\bin\Release\netstandard2.0\GuiaGuanajuato.pdb
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\Views\Info.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\Views\InformacionAPI.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\Views\Menu.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\Views\MenuAPI.xaml.g.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\GuiaGuanajuato.AssemblyInfoInputs.cache
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\GuiaGuanajuato.AssemblyInfo.cs
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\GuiaGuanajuato.dll
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\ref\GuiaGuanajuato.dll
+C:\Users\Luisf\Desktop\Proyectos\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\GuiaGuanajuato\obj\Release\netstandard2.0\GuiaGuanajuato.pdb
